@@ -34,7 +34,7 @@ export default function Skills() {
       period: "Jan 2025 - Mar 2025",
       description:
         "During the internship, I gained practical experience in mobile application development with a dual focus on front-end design and data management. A key part of my role involved designing the user-facing elements of Android applications, where I concentrated on creating an effective user interface (UI) and a positive user experience (UX). Alongside these design responsibilities, I also handled the crucial task of cleaning and preparing datasets, a fundamental skill that ensured the integrity of data used within the data-driven applications.",
-      // logo: "/assets/google.svg",
+      logo: "/assets/exp.svg",
     },
     {
       id: 2,
@@ -43,7 +43,7 @@ export default function Skills() {
       period: "Jun 2025 - Present",
       description:
         "Currently, as a Data Science Intern at Luminar Technolab, I am building a comprehensive skill set by focusing first on core competencies. My training began with mastering foundational tools, including Python for programming, Exploratory Data Analysis (EDA) to uncover insights from data, and SQL for database querying. This solid groundwork is now paving the way for my progression into more advanced and specialized domains, as my learning trajectory is set to advance into Machine Learning (ML), Deep Learning (DL), and the cutting-edge field of Generative AI.",
-      // logo: "/assets/youtube.svg",
+      logo: "/assets/exp.svg",
     },
   ]);
 
