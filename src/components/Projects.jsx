@@ -5,17 +5,31 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: "Crypto Screener Application",
-    description: "A powerful tool for tracking and analyzing cryptocurrency trends in real-time.",
-    image: "/assets/project1.png",
-    link: "#"
+    title: "2020 Olympics Data Analysis",
+    description: "Performed an end-to-end analysis of 2020 Olympics data, transforming scraped web data into a Power BI dashboard. Developed custom DAX metrics to uncover insights on global participation and performance efficiency.",
+    image: "/assets/olym.png",
+    link: "https://github.com/Akshaykumar-2004/Olympics-data-analysis-PBI"
   },
   {
     id: 2,
-    title: "Stock Market Dashboard",
-    description: "An interactive dashboard to monitor stock prices and market trends efficiently.",
-    image: "/assets/project1.png",
-    link: "#"
+    title: "Business Performance Tracker",
+    description: "Developed a business performance tracker in Power BI, centered on a best-practice star schema data model. Created DAX measures to monitor core KPIs like revenue, profit, and sales across channels.",
+    image: "/assets/busi.png",
+    link: "https://github.com/Akshaykumar-2004/Business-Performance-Tracker"
+  },
+  {
+    id: 3,
+    title: "Chocolate Sales Dashboard",
+    description: "Designed a user-friendly Power BI dashboard to analyze chocolate sales. This visualization-focused project provides actionable insights on key markets, top-selling products, and seasonal trends to inform business strategy.",
+    image: "/assets/choco.png",
+    link: "https://github.com/Akshaykumar-2004/Chocolates-Sales-Dashboard"
+  },
+   {
+    id: 4,
+    title: "Navita AI Travel Guide",
+    description: "Navita is an AI travel guide with a smart chatbot and AI-generated visuals, helping you plan trips, explore destinations, and enjoy a smooth, personalized journey.",
+    image: "/assets/navi.png",
+    link: "https://github.com/Akshaykumar-2004/Navita-AI-Travel-Guide"
   }
 ];
 

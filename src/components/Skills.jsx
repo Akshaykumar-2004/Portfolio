@@ -1,42 +1,49 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaPython, FaDatabase,FaJava } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { RiNextjsFill,RiTailwindCssFill } from "react-icons/ri";
-import { CgFigma } from "react-icons/cg";
+import { FaPython } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
+import { FaCalculator, FaTableCells, FaGears, FaChartPie, FaChartColumn } from "react-icons/fa6";
+
+
+import { FaRobot, FaBrain, FaChartSimple } from "react-icons/fa6";
 
 export default function Skills() {
   const [skills] = useState([
-    { id: 1, name: "JavaScript", icon: <FaJs size={50} /> },
-    { id: 2, name: "React", icon: <FaReact size={50} /> },
-    { id: 3, name: "Node.js", icon: <FaNodeJs size={50} /> },
+    // { id: 1, name: "JavaScript", icon: <FaJs size={50} /> },
+    // { id: 2, name: "React", icon: <FaReact size={50} /> },
+    // { id: 3, name: "Node.js", icon: <FaNodeJs size={50} /> },
     { id: 4, name: "Python", icon: <FaPython size={50} /> },
-    { id: 5, name: "MongoDB", icon: <FaDatabase size={50} /> },
-    { id: 6, name: "Java", icon: <FaJava size={50} /> },
-    { id: 7, name: "Postgresql", icon: <BiLogoPostgresql size={50} /> },
-    { id: 8, name: "Next.js", icon: <RiNextjsFill size={50} /> },
-    { id: 9, name: "Tailwind", icon: <RiTailwindCssFill size={50} /> },
-    { id: 10, name: "Figma", icon: <CgFigma size={50} /> },
+    { id: 2, name: "SQL", icon: <TbSql size={50} /> },
+    { id: 3, name: "NumPy", icon: <FaCalculator size={50} /> },
+    { id: 1, name: "Pandas", icon: <FaTableCells size={50} /> },
+    { id: 5, name: "Scikit-learn", icon: <FaGears size={50} /> }, // FaGears is a great alternative for "tools"
+    { id: 6, name: "Matplotlib", icon: <FaChartPie size={50} /> },
+    { id: 7, name: "Power BI", icon: <FaChartColumn size={50} /> },
+    
+   
+    { id: 8, name: "EDA", icon: <FaChartSimple size={50} /> },
+    { id: 9, name: "ML", icon: <FaRobot size={50} /> },
+    { id: 10, name: "Gen AI", icon: <FaBrain size={50} /> },
   ]);
 
   const [experiences] = useState([
     {
       id: 1,
-      company: "Google",
-      role: "Lead Software Engineer",
-      period: "Nov 2019 - Present",
+      company: "Grapesgenix Technical Solutions",
+      role: "Android Development Intern",
+      period: "Jan 2025 - Mar 2025",
       description:
-        "Developed innovative solutions for Google's core search algorithms, optimizing search accuracy and user experience. Developed innovative solutions for Google's core search algorithms, optimizing search accuracy and user experience. Developed innovative solutions for Google's core search algorithms, optimizing search accuracy and user experience. Developed innovative solutions for Google's core search algorithms, optimizing search accuracy and user experience.",
-      logo: "/assets/google.svg",
+        "During the internship, I gained practical experience in mobile application development with a dual focus on front-end design and data management. A key part of my role involved designing the user-facing elements of Android applications, where I concentrated on creating an effective user interface (UI) and a positive user experience (UX). Alongside these design responsibilities, I also handled the crucial task of cleaning and preparing datasets, a fundamental skill that ensured the integrity of data used within the data-driven applications.",
+      // logo: "/assets/google.svg",
     },
     {
       id: 2,
-      company: "Youtube",
-      role: "Software Engineer",
-      period: "Jan 2017 - Oct 2019",
+      company: "Luminar Technolab",
+      role: "Data Science Intern",
+      period: "Jun 2025 - Present",
       description:
-        "At Youtube, I served as a  Software Engineer, focusing on the design and implementation of backend systems for the social media giant's dynamic platform. Working on projects that involved large-scale data processing and user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.",
-      logo: "/assets/youtube.svg",
+        "Currently, as a Data Science Intern at Luminar Technolab, I am building a comprehensive skill set by focusing first on core competencies. My training began with mastering foundational tools, including Python for programming, Exploratory Data Analysis (EDA) to uncover insights from data, and SQL for database querying. This solid groundwork is now paving the way for my progression into more advanced and specialized domains, as my learning trajectory is set to advance into Machine Learning (ML), Deep Learning (DL), and the cutting-edge field of Generative AI.",
+      // logo: "/assets/youtube.svg",
     },
   ]);
 

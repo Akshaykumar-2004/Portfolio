@@ -26,15 +26,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+         I'm a passionate data scientist and analyst specializing in Machine Learning & Generative AI. I thrive on turning raw data into actionable insights and building intelligent, data-driven solutions. My focus is on combining analytical thinking with innovative AI approaches to solve complex problems and create real-world impact.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          My data science journey started in 2025, and since then, I’ve been continuously learning and evolving — mastering Python, SQL, and data visualization while diving deep into machine learning and generative AI. Today, I work on end-to-end data projects, from data wrangling and exploratory analysis to building predictive models and AI-powered solutions using Python, Pandas, NumPy, Power BI, Scikit-learn, and more.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+         Beyond coding, I enjoy sharing insights on LinkedIn, exploring the latest breakthroughs in Machine Learning and Generative AI, and engaging with the global data science community. I love following the progress of AI startups and experimenting with new tools and techniques in my own projects. Feel free to connect with me on LinkedIn or explore my work on GitHub.
         </p>
       </motion.div>
     </div>
