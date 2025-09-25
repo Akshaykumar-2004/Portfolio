@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: "2020 Olympics Data Analysis",
+    title: "EIC Motor Insurance Deep-Dive Diagnostic Analysis",
     description: "Performed an end-to-end analysis of 2020 Olympics data, transforming scraped web data into a Power BI dashboard. Developed custom DAX metrics to uncover insights on global participation and performance efficiency.",
     image: "/assets/olym.png",
-    link: "https://github.com/Akshaykumar-2004/Olympics-data-analysis-PBI"
+    link: "https://github.com/Akshaykumar-2004/EIC-EDA-and-Dashboard-Using-Power-bi-"
   },
   {
     id: 2,
@@ -19,10 +19,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Chocolate Sales Dashboard",
+    title: "Business Performance Tracker",
     description: "Designed a user-friendly Power BI dashboard to analyze chocolate sales. This visualization-focused project provides actionable insights on key markets, top-selling products, and seasonal trends to inform business strategy.",
     image: "/assets/choco.png",
-    link: "https://github.com/Akshaykumar-2004/Chocolates-Sales-Dashboard"
+    link: "https://github.com/Akshaykumar-2004/Business-Performance-Tracker"
   },
    {
     id: 4,
