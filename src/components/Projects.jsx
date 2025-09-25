@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: "Business Performance Tracker",
     description: "Designed a user-friendly Power BI dashboard to analyze chocolate sales. This visualization-focused project provides actionable insights on key markets, top-selling products, and seasonal trends to inform business strategy.",
-    image: "/assets/choco.png",
+    image: "/assets/busi.png",
     link: "https://github.com/Akshaykumar-2004/Business-Performance-Tracker"
   },
    {
