@@ -12,10 +12,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Business Performance Tracker",
+    title: "Awesome Chocolates Power BI Project",
     description: "Developed a business performance tracker in Power BI, centered on a best-practice star schema data model. Created DAX measures to monitor core KPIs like revenue, profit, and sales across channels.",
     image: "/assets/busi.png",
-    link: "https://github.com/Akshaykumar-2004/Business-Performance-Tracker"
+    link: "https://github.com/Akshaykumar-2004/Awesome-Chocolates-Power-BI-Project"
   },
   {
     id: 3,
