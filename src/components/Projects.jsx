@@ -7,14 +7,14 @@ const projects = [
     id: 1,
     title: "EIC Motor Insurance Deep-Dive Diagnostic Analysis",
     description: "Performed an end-to-end analysis of 2020 Olympics data, transforming scraped web data into a Power BI dashboard. Developed custom DAX metrics to uncover insights on global participation and performance efficiency.",
-    image: "/assets/olym.png",
+    image: "/assets/eic.jpg",
     link: "https://github.com/Akshaykumar-2004/EIC-EDA-and-Dashboard-Using-Power-bi-"
   },
   {
     id: 2,
     title: "Awesome Chocolates Power BI Project",
     description: "Developed a business performance tracker in Power BI, centered on a best-practice star schema data model. Created DAX measures to monitor core KPIs like revenue, profit, and sales across channels.",
-    image: "/assets/busi.png",
+    image: "/assets/choco11.jpg",
     link: "https://github.com/Akshaykumar-2004/Awesome-Chocolates-Power-BI-Project"
   },
   {
