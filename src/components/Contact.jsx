@@ -14,7 +14,7 @@ export default function Contact() {
   const socialLinks = [
     { 
       Icon: BiLogoGmail, 
-      href: "mailto:akshayoto087@gmail.com" 
+      href: "mailto:akshayotp087@gmail.com" 
     },
     { 
       Icon: IoLogoLinkedin, 

@@ -1,7 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*
+  Final Definitive CSS: Includes Google Fonts, Tailwind directives,
+  and truly responsive slider controls that are hidden on mobile.
+*/
 
+/* 1. Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+/* 2. Tailwind CSS Directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 3. Final Responsive Styles for the Swiper Slider */
+/* -------------------------------------------------- */
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+/* KEY FIX: By default, on mobile, the arrows are HIDDEN */
+.swiper-button-next-custom,
+.swiper-button-prev-custom {
+  display: none;
+}
+
+/* KEY FIX: On tablets and larger screens (768px and up), the arrows APPEAR */
+@media (min-width: 768px) {
+  .swiper-button-next-custom,
+  .swiper-button-prev-custom {
+    display: flex; /* Make them visible */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+}
+
+/* Position for tablets */
+@media (min-width: 768px) {
+  .swiper-button-prev-custom {
+    left: 20px;
+  }
+  .swiper-button-next-custom {
+    right: 20px;
+  }
+}
+
+/* Position for large desktops (pushed outside) */
+@media (min-width: 1280px) {
+  .swiper-button-prev-custom {
+    left: -60px;
+  }
+  .swiper-button-next-custom {
+    right: -60px;
+  }
+}
+
+/* The custom SVG icon */
+.swiper-button-next-custom::after,
+.swiper-button-prev-custom::after {
+  content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>');
+  width: 24px;
+  height: 24px;
+}
+.swiper-button-prev-custom::after {
+  transform: rotate(180deg);
+}
+
+/* Pagination dots styling (always below the content) */
+.swiper-pagination {
+  position: relative !important;
+  bottom: auto !important;
+  margin-top: 2rem !important;
+}
+.swiper-pagination-bullet {
+  background-color: #71717A !important;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 0.8;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  opacity: 1;
+}
