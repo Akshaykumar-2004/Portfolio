@@ -66,7 +66,7 @@ export default function Navbar() {
         </ul>
 
         <motion.a
-          href="/assets/resume.pdf"
+          href="/assets/Akshayresume.pdf"
           download="Akshay-Resume.pdf"
           className="hidden relative lg:inline-block px-4 py-2 font-medium group"
         >
