@@ -14,27 +14,90 @@ const projects = [
     // Your projects array
     {
         id: 1,
+        title: "HR Analytics & Attrition Prediction",
+        description: "Built an end-to-end solution using SQL, Python (Scikit-learn), and Power BI to predict employee attrition with 88% accuracy and identify key drivers like overtime, informing retention strategies.",
+        image: "/assets/hr.jpg",
+        link: "https://github.com/Akshaykumar-2004/HR-Analytics-Employee-Attrition-Prediction"
+    },
+    {
+        id: 2,
+        title: "Strategic Insurance Cost Analysis (Healthcare)",
+        description: "Analyzed insurance customer data using MySQL, Python (EDA, Feature Engineering), and a 3-page Power BI dashboard with DAX to uncover key factors driving medical costs (smoking, age, BMI) for pricing and wellness program insights.",
+        image: "/assets/hsptl.jpg",
+        link: "https://github.com/Akshaykumar-2004/Strategic-Insurance-Cost-Analysis-Healthcare-"
+    },
+    {
+        id: 3,
+        title: "End-to-End Vendor Performance Analysis",
+        description: "Engineered a Python ETL script, performed SQL aggregation (SQLite), Python EDA (Quadrant Analysis, T-test), and Power BI reporting to evaluate vendor performance, identify risks, and recommend optimization strategies for an e-commerce platform.",
+        image: "/assets/vendor.jpg",
+        link: "https://github.com/Akshaykumar-2004/Vendor-Performance-Analysis"
+    },
+    {
+        id: 4,
         title: "EIC Motor Insurance Deep-Dive Diagnostic Analysis",
         description: "Performed an end-to-end analysis of 2020 Olympics data, transforming scraped web data into a Power BI dashboard. Developed custom DAX metrics to uncover insights on global participation and performance efficiency.",
         image: "/assets/choco11.jpg",
         link: "https://github.com/Akshaykumar-2004/EIC-EDA-and-Dashboard-Using-Power-bi-"
     },
     {
-        id: 2,
+        id: 5,
+        title: "Banking Domain Strategic Analysis",
+        description: "Analyzed bank marketing data using Python for EDA, outlier handling, feature engineering (PCA), and built a KNN model (Scikit-learn) to predict term deposit subscriptions with ~90% accuracy, optimizing campaign targeting.",
+        image: "/assets/bank.jpg",
+        link: "https://github.com/Akshaykumar-2004/Bank-Marketing-Term-Deposit-Prediction"
+    },
+    {
+        id: 6,
+        title: "Global Terrorism EDA",
+        description: "Performed EDA in Python on a large (180k+ rows), complex dataset, visualizing trends, identifying regional hotspots, and uncovering common attack methods over time.",
+        image: "/assets/global.jpg",
+        link: "https://github.com/Akshaykumar-2004/Global-Terrorist-Attack-EDA"
+    },
+    {
+        id: 7,
+        title: "E-commerce RFM Customer Segmentation",
+        description: "Implemented the RFM framework in Python to segment e-commerce customers based on Recency, Frequency, and Monetary value, enabling targeted marketing strategies.",
+        image: "/assets/ecommerce.jpg",
+        link: "https://github.com/Akshaykumar-2004/Ecommerce-sales-EDA"
+    },
+    {
+        id: 8,
+        title: "Blinkit EDA",
+        description: "Conducted EDA in Python on Blinkit sales data, analyzing item popularity, sales distribution by time/location, and customer purchasing patterns using Pandas and Seaborn.",
+        image: "/assets/binkit.jpg",
+        link: "https://github.com/Akshaykumar-2004/Blinkit-EDA"
+    },
+    {
+        id: 9,
+        title: "Titanic EDA",
+        description: "Executed a foundational EDA project in Python, cleaning data, performing feature engineering, and visualizing factors influencing passenger survival on the Titanic dataset.",
+        image: "/assets/titanic.jpg",
+        link: "https://github.com/Akshaykumar-2004/Titanic-Survival-EDA"
+    },
+    {
+        id: 10,
         title: "Awesome Chocolates Power BI Project",
         description: "Developed a business performance tracker in Power BI, centered on a best-practice star schema data model. Created DAX measures to monitor core KPIs like revenue, profit, and sales across channels.",
         image: "/assets/eic.jpg",
         link: "https://github.com/Akshaykumar-2004/Awesome-Chocolates-Power-BI-Project"
     },
     {
-        id: 3,
+        id: 11,
+        title: "Chocolates-Sales-Dashboard ",
+        description: "A Power BI dashboard visualizing chocolate sales data to uncover insights into top markets, products, and seasonal trends.",
+        image: "/assets/chsale.jpg",
+        link: "https://github.com/Akshaykumar-2004/Chocolates-Sales-Dashboard"
+    },
+    {
+        id: 12,
         title: "Business Performance Tracker",
         description: "Designed a user-friendly Power BI dashboard to analyze chocolate sales. This visualization-focused project provides actionable insights on key markets, top-selling products, and seasonal trends to inform business strategy.",
         image: "/assets/busi.png",
         link: "https://github.com/Akshaykumar-2004/Business-Performance-Tracker"
     },
     {
-        id: 4,
+        id: 13,
         title: "Navita AI Travel Guide",
         description: "Navita is an AI travel guide with a smart chatbot and AI-generated visuals, helping you plan trips, explore destinations, and enjoy a smooth, personalized journey.",
         image: "/assets/navi.png",
