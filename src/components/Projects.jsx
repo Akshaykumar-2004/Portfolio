@@ -86,7 +86,7 @@ const projects = [
         id: 11,
         title: "Chocolates-Sales-Dashboard ",
         description: "A Power BI dashboard visualizing chocolate sales data to uncover insights into top markets, products, and seasonal trends.",
-        image: "/assets/chsale.jpg",
+        image: "/assets/chsale.png",
         link: "https://github.com/Akshaykumar-2004/Chocolates-Sales-Dashboard"
     },
     {
